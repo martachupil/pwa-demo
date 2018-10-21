@@ -1,8 +1,12 @@
+<img align="right"
+     title="PWA"
+     height="128"
+     width="128"
+     src="https://raw.githubusercontent.com/martachupil/pwa-demo/master/assets/img/pwa.png">
+     
 # pwa-demo
 
 > Progressive web-app demo
-
-![pwa](https://raw.githubusercontent.com/martachupil/pwa-demo/master/assets/img/pwa.png)
 
 ## Installation
 
