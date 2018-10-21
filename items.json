@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Praesent lobortis",
+        "poster": "/assets/img/img1.jpg",
+        "description": " Sed mollis magna sed hendrerit commodo. Nunc finibus urna non semper efficitur. Class aptent taciti sociosqu ad litora torquent."
+    },
+    {
+        "label": "Mauris molestie convallis ullamcorper",
+        "poster": "/assets/img/img2.jpg",
+        "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt tortor sit amet commodo lacinia."
+    },
+    {
+        "label": "Class aptent taciti sociosqu",
+        "poster": "/assets/img/img3.jpg",
+        "description": "Mauris molestie convallis ullamcorper ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tincidunt tortor sit amet commodo lacinia."
+    }
+]
