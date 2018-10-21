@@ -1,4 +1,4 @@
-<img align="left"
+<img align="right"
      title="PWA"
      height="140"
      width="140"
