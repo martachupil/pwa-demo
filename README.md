@@ -2,6 +2,8 @@
 
 > Progressive web-app demo
 
+![pwa](https://raw.githubusercontent.com/martachupil/pwa-demo/master/assets/img/pwa.png)
+
 ## Installation
 
 1. Clone this repo: `https://github.com/martachupil/pwa-demo.git`
