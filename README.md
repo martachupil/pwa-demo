@@ -1,7 +1,7 @@
-<img align="right"
+<img align="left"
      title="PWA"
-     height="128"
-     width="128"
+     height="140"
+     width="140"
      src="https://raw.githubusercontent.com/martachupil/pwa-demo/master/assets/img/pwa.png">
      
 # pwa-demo
