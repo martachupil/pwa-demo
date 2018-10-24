@@ -1,10 +1,10 @@
 const CACHED_FILES = [
-    '/',
-    '/items.json',
-    '/index.html',
-    '/assets/js/main.js',
-    '/assets/img/pwa.png',
-    '/assets/css/bootstrap.min.css'
+    '/pwa-demo/',
+    '/pwa-demo/items.json',
+    '/pwa-demo/index.html',
+    '/pwa-demo/assets/js/main.js',
+    '/pwa-demo/assets/img/pwa.png',
+    '/pwa-demo/assets/css/bootstrap.min.css'
 ];
 
 const CACHE_NAME = 'pwa-cache.v1';
@@ -16,7 +16,7 @@ self.addEventListener('install', event => {
         caches.open(CACHE_NAME).then(cache => {
             console.log('Caching app assets');
             return cache.addAll(CACHED_FILES);
-        })
+        }).catch(err => console.error("Failed to cache assets: ", err))
     );
 });
 

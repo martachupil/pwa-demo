@@ -14,11 +14,11 @@ let todoList = []
 
 const main = () => {
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service-worker.js')
+        navigator.serviceWorker.register('/pwa-demo/service-worker.js', {scope: '/pwa-demo/'})
             .then(reg => console.log('service worker registered: ', reg))
             .catch(err => console.error('failed to register SW: ', err));
     }
-    fetch('/items.json')
+    fetch('items.json')
         .then(res => res.json())
         .then(data => {
             todoList = todoList.concat(data);
