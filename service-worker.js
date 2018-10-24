@@ -1,3 +1,4 @@
+// List of offline cached files
 const CACHED_FILES = [
     '/',
     '/items.json',
@@ -12,7 +13,10 @@ const DATA_CACHE_NAME = 'pwa-data.v1';
 
 self.addEventListener('install', event => {
     console.log('Installing service worker');
+    // Wait untill caching will be completed
     event.waitUntil(
+        // Create a cache for web site assets
+        // and cache all necessary CSS and JS files
         caches.open(CACHE_NAME).then(cache => {
             console.log('Caching app assets');
             return cache.addAll(CACHED_FILES);
