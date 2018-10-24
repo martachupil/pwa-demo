@@ -4,9 +4,6 @@ const CACHED_FILES = [
     '/index.html',
     '/assets/js/main.js',
     '/assets/img/pwa.png',
-    '/assets/img/img1.jpg',
-    '/assets/img/img2.jpg',
-    '/assets/img/img3.jpg',
     '/assets/css/bootstrap.min.css'
 ];
 
@@ -47,11 +44,11 @@ self.addEventListener('fetch', event => {
             // If request was cached before - return response from cache.
             // Otherwize - get data from web and put to the cache.
             return response || fetch(event.request).then(res => {
-                caches.open(DATA_CACHE_NAME).then(cache => {
+                return caches.open(DATA_CACHE_NAME).then(cache => {
                     cache.put(event.request, res.clone());
                     console.log('Request cached');
                     return res;
-                })
+                });
             })
         })
     );
