@@ -16,7 +16,7 @@
 
 ## WEB UI Community - OCTOBER 2018
 
-<h3><a href="#">Presentation slides - PWA (Progressive Web Apps)</a></h3>
+<h3><a href="https://docs.google.com/presentation/d/11msWO1RFeG2DlIOIRG1lMw2y7rp5V2s_aR573roKRkA/edit?usp=sharing">Presentation slides - PWA (Progressive Web Apps)</a></h3>
 
 <img align="center"
      title="softserve"
